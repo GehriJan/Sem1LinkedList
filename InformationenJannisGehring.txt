@@ -1,0 +1,58 @@
+--------------------------------
+>>>INFOS ZUR PROGRAMMSTRUKTUR<<<
+--------------------------------
+Das Programm ist folgendermaßen gegliedert:
+ ┌─────────────────────────────────────────────────────────────────────┐
+ │                                                                     │
+ │                           ┌────────────┐                            │
+ │      ┌───────────┬────────┤ Hauptmenue ├────┬────────────────┐      │
+ │      │           │        └──┬─────────┘    │    Direkte     │      │
+ │      │           │           │              │    Funktionen  │      │
+ │      │           │           │              │                │      │
+ │      │           │           │              │             Sortieren │
+ │      ▼           ▼           ▼              ▼                │      │
+ │ ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────────────┐    Suchen   │
+ │ │ Eingabe │ │ Ausgabe │ │ Löschen │ │ Verschlüsselung │      │      │
+ │ └────┬────┘ └────┬────┘ └────┬────┘ └───────┬─────────┘    Amazon-  │
+ │      │           │           │              │               suche   │
+ │  per Hand    in Konsole  Einzelne     Verschlüsseln          │      │
+ │      │           │           │              │             Manuell   │
+ │  aus Datei   in Datei    Bereich      Entschlüsseln      Tauschen   │
+ │      │           │           │              │                │      │
+ │  Zufällige   Adressen    Doppelte                                   │
+ │      │           │           │                                      │
+ │                            Alle                                     │
+ │                              │                                      │
+ │                                                                     │
+ └─────────────────────────────────────────────────────────────────────┘
+
+Wie durch die Grafik sichtbar, sind manche Funktionen direkt über das Hauptmenü aufrufbar,
+andere nur über ein Untermenü erreichbar.
+Das "weiterleiten" in die verschiedenen Menüs und schlussendlich Funktionen geschieht durch
+die Funktionen oberMenue und unterMenue.
+Nicht dargestellt sind die Hintergrundfunktionen trim, up_datum, up_liste_add, up_struct_liste, strSearch, eingabeZahl, compareWords, eingabeText.
+
+--------------------------------
+>>>DATEIEN<<<
+--------------------------------
+Das Programm ist in einen Main-file, vier weitere .cpp files und eine Headerfile gegliedert.
+Die Funktionen sind semantisch in die Files aufgeteilt:
+	1. Main: main-funktion und Menüfunktionen
+	2. EingabeLoeschen
+	3. AusgabeSuchen
+	4. SortierenRandom (inklusive Manuell tauschen)
+
+--------------------------------
+>>>ANMERKUNG<<<
+--------------------------------
+Sofern es nicht im Programm abgefragt wird handelt es sich bei den Dateinamen der Textfiles, mit denen das Programm hantiert um festgelegte Dateinamen.
+So wird bspw. immer in eine Datei Namens "VerschluesselteAusgabeJannisGehring.txt" verschluesselt. Die Ausnahme beweist, das dies nicht am Unvermögen des Programmierers liegt und es ist natürlich diskutierbar, ob jene Implementierung noch vorteilhaft gewesen wäre. Jene Gründe sprechen dagegen
+
+*Eine manuelle Dateinamenänderung stellt über den Dateiexplorer eine Leichtigkeit dar
+*Eine erneute Auswahl würde dem Benutzer in allen Dateifunktionen immer und immer wieder Zeit kosten
+
+--------------------------------
+>>>LINKS<<<
+--------------------------------
+*Asscii-Art Buch auf der Startseite: https://asciiart.website/index.php?art=objects/books
+*Obere Grafik erstellen: https://asciiflow.com/#/

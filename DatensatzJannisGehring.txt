@@ -1,0 +1,20 @@
+***
+***Datei zum Einlesen von Daten.
+***Jannis Gehring.
+***Bücherliste mit Autor und Inhalt.
+***
+***
+**********************************************************************
+ ________________________________________________________________________________
+| Titel                    | Autor                    | Inhalt                   |
+|__________________________|__________________________|__________________________|
+| Der Traffikant           | Seethaler Robert         | Franzl                   |
+| Tactics                  | Koukl Greg               | Coloumbo                 |
+| Making it Stick          | Brown Peter C            | Interleaving             |
+| STAYONFIRE               | Schindler Thaddaeus      | Glaube                   |
+| The case for christ      | Strobl Lee               | Investigation            |
+| Making it Stick          | Brown Peter C            | Interleaving             |
+| Im Zweifel fuer Gott     | Detje Malte              | Gesetz v Evangelium      |
+| The Atonement            | Craig William L          | Propitiation             |
+| Gently and lowly         | Ortlund Dane             | Bob Kauflin              |
+\________________________________________________________________________________/
